@@ -1,4 +1,16 @@
+<%if @name && @age %>
 <h1> My name is <%= @name %> and I am <%= @age%> years old.</h1>
+<% end %>
+
+<form action="/named-cat">
+  <div>
+    <input type="text" name="name">
+    <input type="text" name="age">
+    <input type="submit" value="Submit">
+    <
+  </div>
+</form>
+
 <div style='border: 3px dashed red' width = '50'>
   <img src = 'http://bit.ly/1eze8aE'/>
 </div>
