@@ -32,3 +32,9 @@ get '/putin' do
   "I wrestle bears"
   "I fly eagles"
 end
+
+get '/cat' do
+  "<div style='border: 3px dashed red' width = '50'>
+    <img src = 'http://bit.ly/1eze8aE'/>
+  </div>"
+end
