@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 source 'https://rubygems.org'
 
 ruby '2.3.0'
 
 gem 'sinatra-1.4.7'
 gem 'thin-1.6.4'
+=======
+source 'https://ruby-gems.org'
+
+ruby '2.3.0'
+gem 'sinatra'
+>>>>>>> fdcaefb583b3ca22e6e9cbc6324c01831dfa82cb
